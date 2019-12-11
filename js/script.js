@@ -1,10 +1,9 @@
-
-
-
-
-
-
-
+var crack = "x"
+var tracking = 0
+var gameover = false
+function performLogic(button, title) {
+$("#button1").hide() 
+}
 $("#button1").click(function() {
     performLogic("#button1","#tile1");
 });
